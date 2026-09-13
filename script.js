@@ -1,5 +1,5 @@
 // Telegram destination
-const TELEGRAM_URL = "https://t.me/Ayush26055?text=Hello%20Sir%2C%0A%0AI%20Am%20Interested";
+const TELEGRAM_URL = "https://t.me/vishalconsulting1";
 
 const timerText = document.getElementById("timerText");
 const progressBar = document.getElementById("progressBar");
