@@ -5,7 +5,7 @@ const timerText = document.getElementById("timerText");
 const progressBar = document.getElementById("progressBar");
 const joinBtn = document.getElementById("joinBtn");
 
-let seconds = 3;
+let seconds = 59;
 let opened = false;
 
 function openTelegram() {
