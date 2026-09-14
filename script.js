@@ -21,7 +21,7 @@ joinBtn.addEventListener("click", (e) => {
 
 const timer = setInterval(() => {
   seconds--;
-  progressBar.style.width = `${((3 - seconds) / 3) * 100}%`;
+  progressBar.style.width = `${((59 - seconds) / 59) * 100}%`;
 
   if (seconds > 0) {
     timerText.textContent = `Opening Telegram in ${seconds}s — or tap above`;
