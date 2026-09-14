@@ -5,7 +5,7 @@ const timerText = document.getElementById("timerText");
 const progressBar = document.getElementById("progressBar");
 const joinBtn = document.getElementById("joinBtn");
 
-let seconds = 10;
+let seconds = 50;
 let opened = false;
 
 function openTelegram() {
@@ -21,7 +21,7 @@ joinBtn.addEventListener("click", (e) => {
 
 const timer = setInterval(() => {
   seconds--;
-  progressBar.style.width = `${((10 - seconds) / 10) * 100}%`;
+  progressBar.style.width = `${((50 - seconds) / 50) * 100}%`;
 
   if (seconds > 0) {
     timerText.textContent = `Opening Telegram in ${seconds}s — or tap above`;
